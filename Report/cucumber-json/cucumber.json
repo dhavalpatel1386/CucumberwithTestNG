@@ -1,0 +1,218 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "user is login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9705133700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open browser and enter url",
+            "match": {
+              "location": "LoginTest.i_open_browser_and_enter_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 747667300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter valid credential",
+            "match": {
+              "location": "LoginTest.i_enter_valid_credential()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7254080300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on login",
+            "match": {
+              "location": "LoginTest.i_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 310815600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I redirect to Home page of application",
+            "match": {
+              "location": "LoginTest.i_redirect_to_Home_page_of_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Verify AssignLeave Validation",
+        "description": "",
+        "id": "logintest;verify-assignleave-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 168700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on assign leave",
+            "match": {
+              "location": "LoginTest.i_click_on_assign_leave()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on assign button",
+            "match": {
+              "location": "LoginTest.i_click_on_assign_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "It shows the validation error",
+            "match": {
+              "location": "LoginTest.it_shows_the_validation_error()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user is login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10736470100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open browser and enter url",
+            "match": {
+              "location": "LoginTest.i_open_browser_and_enter_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 173537100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter valid credential",
+            "match": {
+              "location": "LoginTest.i_enter_valid_credential()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9660960500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on login",
+            "match": {
+              "location": "LoginTest.i_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108740300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I redirect to Home page of application",
+            "match": {
+              "location": "LoginTest.i_redirect_to_Home_page_of_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Verify AssignLeave added successfully",
+        "description": "",
+        "id": "logintest;verify-assignleave-added-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 101000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on assign leave and fill detail",
+            "match": {
+              "location": "LoginTest.i_click_on_assign_leave_and_fill_detail()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click assign button",
+            "match": {
+              "location": "LoginTest.I_click_assign_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "It shows the success message",
+            "match": {
+              "location": "LoginTest.It_shows_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LoginTest",
+    "description": "",
+    "id": "logintest",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

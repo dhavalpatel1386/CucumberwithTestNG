@@ -1,0 +1,23 @@
+Feature: LoginTest
+
+  Background: user is login                     [90m# Login.feature:4[0m
+    [32mGiven [0m[32mI open browser and enter url[0m          [90m# LoginTest.i_open_browser_and_enter_url()[0m
+    [32mWhen [0m[32mI enter valid credential[0m               [90m# LoginTest.i_enter_valid_credential()[0m
+    [32mAnd [0m[32mI click on login[0m                        [90m# LoginTest.i_click_on_login()[0m
+    [32mThen [0m[32mI redirect to Home page of application[0m [90m# LoginTest.i_redirect_to_Home_page_of_application()[0m
+
+  Scenario: Verify AssignLeave Validation [90m# Login.feature:10[0m
+    [32mGiven [0m[32mI click on assign leave[0m         [90m# LoginTest.i_click_on_assign_leave()[0m
+    [32mWhen [0m[32mI click on assign button[0m         [90m# LoginTest.i_click_on_assign_button()[0m
+    [32mThen [0m[32mIt shows the validation error[0m    [90m# LoginTest.it_shows_the_validation_error()[0m
+
+  Background: user is login                     [90m# Login.feature:4[0m
+    [32mGiven [0m[32mI open browser and enter url[0m          [90m# LoginTest.i_open_browser_and_enter_url()[0m
+    [32mWhen [0m[32mI enter valid credential[0m               [90m# LoginTest.i_enter_valid_credential()[0m
+    [32mAnd [0m[32mI click on login[0m                        [90m# LoginTest.i_click_on_login()[0m
+    [32mThen [0m[32mI redirect to Home page of application[0m [90m# LoginTest.i_redirect_to_Home_page_of_application()[0m
+
+  Scenario: Verify AssignLeave added successfully [90m# Login.feature:15[0m
+    [32mGiven [0m[32mI click on assign leave and fill detail[0m [90m# LoginTest.i_click_on_assign_leave_and_fill_detail()[0m
+    [32mWhen [0m[32mI click assign button[0m                    [90m# LoginTest.I_click_assign_button()[0m
+    [32mThen [0m[32mIt shows the success message[0m             [90m# LoginTest.It_shows_the_success_message()[0m

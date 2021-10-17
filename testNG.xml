@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SAMPLE TEST"  >
+    
+    
+    <listeneres>
+    <listener class-name="org.uncommons.reportng.HtmlReporter"></listener>
+    
+    <listener class-name="Utility.ReportListeners"></listener>
+    </listeneres>
+    <test name="SampleTest">
+    <parameter name ="browserType" value="Chrome"/>
+        <classes>
+            <class name ="TestLayer.LoginTest"/>
+        </classes>
+    </test>
+    
+</suite>
